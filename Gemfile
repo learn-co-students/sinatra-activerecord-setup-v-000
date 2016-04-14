@@ -1,7 +1,10 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
+gem 'activerecord'
 gem 'sinatra'
+gem 'sinatra-activerecord'
+gem 'rake'
 gem 'thin'
 gem 'require_all'
 
@@ -9,8 +12,10 @@ gem 'require_all'
 group :development do
 	gem 'shotgun'
 	gem 'pry'
+  gem 'tux'
+  gem 'sqlite3'
 end
-    
+
 group :test do
   gem 'rspec'
   gem 'capybara'
