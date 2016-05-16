@@ -3,13 +3,13 @@
 
 ## Objectives
 
-1. Setup a database in a Sinatra application. 
+1. Setup a database in a Sinatra application.
 2. Create and use a Rakefile to run ActiveRecord migrations
 3. Use ActiveRecord in a Sinatra application.
 
 ## Overview
 
-Sinatra doesn't come with database support out of the box, but it's relatively easy to configure. In general, we'll be working from templates that have this pre-built, but it's good to understand what's going on under the hood. We're going to practice adding a database into our Sinatra applications. 
+Sinatra doesn't come with database support out of the box, but it's relatively easy to configure. In general, we'll be working from templates that have this pre-built, but it's good to understand what's going on under the hood. We're going to practice adding a database into our Sinatra applications.
 
 ## Instructions
 
@@ -36,7 +36,7 @@ Into our development group, we'll add two other gems: `sqlite3` and `tux`. `sqli
 	gem 'sinatra-activerecord'
 	gem 'thin'
 	gem 'require_all'
-	
+
 	group :development do
 		gem 'shotgun'
 		gem 'pry'
@@ -49,7 +49,7 @@ Our Gemfile is up to date - awesome! Go ahead and run `bundle install` to get yo
 
 ### Connecting to the Database
 
-We now have access to all of the gems that we need, but we still need to setup a connection to our database. Add the following block of code to your `environment.rb` file (underneath `Bundler.require(:default, ENV['SINATRA_ENV'])`). 
+We now have access to all of the gems that we need, but we still need to setup a connection to our database. Add the following block of code to your `environment.rb` file (underneath `Bundler.require(:default, ENV['SINATRA_ENV'])`).
 
 ```ruby
 configure :development do
@@ -125,7 +125,7 @@ class CreateDogs < ActiveRecord::Migration
 end
 ```
 
-Our `up` method should create our table with `name` and `breed` columns. Our down method should drop the table. 
+Our `up` method should create our table with `name` and `breed` columns. Our down method should drop the table.
 
 ```ruby
 class CreateDogs < ActiveRecord::Migration
@@ -142,7 +142,7 @@ class CreateDogs < ActiveRecord::Migration
 end
 ```
 
-Now, run the migration from the terminal with `rake db:migrate`. 
+Now, run the migration from the terminal with `rake db:migrate`.
 
 ```bash
 rake db:migrate
