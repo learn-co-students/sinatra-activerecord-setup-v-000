@@ -1,0 +1,13 @@
+current directory: /Users/matthewborg/developing/learn.co/sinatra/sinatra-activerecord-setup-v-000/vendor/bundle/gems/json-1.8.6/ext/json
+/Users/matthewborg/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20170216-59276-17qkd1m.rb extconf.rb
+creating Makefile
+
+current directory: /Users/matthewborg/developing/learn.co/sinatra/sinatra-activerecord-setup-v-000/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/matthewborg/developing/learn.co/sinatra/sinatra-activerecord-setup-v-000/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/matthewborg/developing/learn.co/sinatra/sinatra-activerecord-setup-v-000/vendor/bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
