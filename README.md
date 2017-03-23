@@ -109,6 +109,7 @@ You should see the following output:
 ```bash
 =># db/migrate/20150914201353_create_dogs.rb
 ```
+
  The beginning of the file is a timestamp - yours should reflect the time that your `create_dogs` file was created! You've now created your first database migration inside of the `db` folder.
 
 Inside of the migration file, remove the default `change` method (we'll come back to this), and add methods for `up` and `down`.
@@ -172,3 +173,4 @@ end
 While the rollback (`down`) method is not included, it's implicit in the change method. Rolling back the database would work in exactly the same way as using the `down` method.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-activerecord-setup' title='Sinatra Activerecord Setup'>Sinatra Activerecord Setup</a> on Learn.co and start learning to code for free.</p>
+
