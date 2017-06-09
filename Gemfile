@@ -1,6 +1,9 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
+gem 'activerecord', '4.2.5'
+gem 'sinatra-activerecord'
+gem 'rake'
 gem 'sinatra'
 gem 'thin'
 gem 'require_all'
@@ -15,4 +18,6 @@ group :test do
   gem 'rspec'
   gem 'capybara'
   gem 'rack-test'
+  gem 'sqlite3'
+  gem 'tux'
 end
