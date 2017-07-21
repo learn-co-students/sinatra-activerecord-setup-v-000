@@ -126,7 +126,7 @@ end
 Our `up` method should create our table with `name` and `breed` columns. Our down method should drop the table.
 
 ```ruby
-class CreateDogs < ActiveRecord::Migration
+class CreateDogs < ActiveRecord::Migration[5.0]
   def up
     create_table :dogs do |t|
       t.string :name
