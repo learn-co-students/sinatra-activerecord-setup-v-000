@@ -2,15 +2,20 @@
 source "https://rubygems.org"
 
 gem 'sinatra'
+gem 'activerecord', '4.2.5'
+gem 'sinatra-activerecord'
+gem 'rake'
 gem 'thin'
 gem 'require_all'
 
-
+# these gems don't need to be installed on server when we deploy our app
 group :development do
 	gem 'shotgun'
 	gem 'pry'
+	gem 'sqlite3'
+	gem 'tux'
 end
-    
+
 group :test do
   gem 'rspec'
   gem 'capybara'
