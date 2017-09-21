@@ -3,6 +3,8 @@ ENV['SINATRA_ENV'] ||= "development"
 require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
+# sets connection to sqlite db w/name database.db -- this will be located in
+  # db folder created by Rake
 configure :development do
   set :database, 'sqlite3:db/database.db'
 end

@@ -1,0 +1,6 @@
+require './config/environment'
+require 'sinatra/activerecord/rake'
+
+# remember rake -T shows all the taskes of the rake file
+# the require 'sinatra/activerecord/rake' is whats giving this file all its
+  # tasks

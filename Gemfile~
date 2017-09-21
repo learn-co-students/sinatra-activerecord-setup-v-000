@@ -4,6 +4,8 @@ source "https://rubygems.org"
 gem 'sinatra'
 gem 'thin'
 gem 'require_all'
+
+# these are the gems that allow us to use ActiveRecord
 gem 'activerecord', '4.2.5'
 gem 'sinatra-activerecord'
 gem 'rake'
@@ -12,7 +14,12 @@ gem 'rake'
 group :development do
 	gem 'shotgun'
 	gem 'pry'
+
+	# these are the gems that allow us to use ActiveRecord
+	# won't use either of these in production so put in development
+	# db adapter
 	gem 'sqlite3'
+	# give us an interactive aconsole that pre-loads db and ActiveRecord relations
 	gem 'tux'
 end
 
