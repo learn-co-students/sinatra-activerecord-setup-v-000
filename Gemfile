@@ -11,7 +11,6 @@ gem 'require_all'
 group :development do
 	gem 'shotgun'
 	gem 'pry'
-	gem 'pry-reload'
 	gem 'sqlite3'
 	gem 'tux'
 end
