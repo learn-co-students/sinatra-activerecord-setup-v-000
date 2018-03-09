@@ -1,0 +1,13 @@
+current directory: /Users/mikekruszewski/Development/flatiron/Sinatra/activerecord-setup-in-sinatra/.bundle/gems/json-1.8.6/ext/json
+/Users/mikekruszewski/.rvm/rubies/ruby-2.5.0/bin/ruby -r ./siteconf20180309-21974-97qrs4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mikekruszewski/Development/flatiron/Sinatra/activerecord-setup-in-sinatra/.bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/mikekruszewski/Development/flatiron/Sinatra/activerecord-setup-in-sinatra/.bundle/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/mikekruszewski/Development/flatiron/Sinatra/activerecord-setup-in-sinatra/.bundle/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
