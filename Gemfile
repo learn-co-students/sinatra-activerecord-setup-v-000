@@ -2,6 +2,7 @@
 source "https://rubygems.org"
 
 gem 'sinatra'
+gem 'activerecord'
 gem 'thin'
 gem 'require_all'
 
@@ -9,6 +10,8 @@ gem 'require_all'
 group :development do
 	gem 'shotgun'
 	gem 'pry'
+  gem 'tux'
+  gem 'sqlite3'
 end
     
 group :test do
