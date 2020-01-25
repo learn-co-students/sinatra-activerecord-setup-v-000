@@ -11,7 +11,7 @@ class CreateDogs < ActiveRecord::Migration[5.2]
   #end 
 #end 
 
-#or change method
+#or use change method below
 
 
 def change 
