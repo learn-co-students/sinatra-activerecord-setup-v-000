@@ -14,4 +14,5 @@ group :development do
 	gem 'pry'
 	gem 'sqlite'
 	gem 'tux'
+	gem 'sqlite3', '~> 1.3.6'
 end
